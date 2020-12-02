@@ -1,0 +1,825 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang');
+body{
+background:#000033;
+overflow:hidden ;
+margin: 0;
+padding: 0;
+min-height: 100%;
+}
+
+#sec{
+
+width: 2px;
+height: 150px;
+background:red;
+left: 49%;
+top: 10%;
+position: absolute;
+border-radius: 100%;
+animation-name:swing;
+transform-origin:bottom ;
+animation-duration: 1s;
+   }
+
+
+#min{
+
+width: 4px;
+height: 134px;
+background:red;
+left:49%;
+top:15%;
+position: absolute;
+border-radius: 100%;
+animation-name:swing;
+animation-duration: 1s;
+transform-origin:bottom ;
+    
+}
+
+
+#hour{
+
+width: 5px;
+height:73px;
+background:red;
+left: 49%;
+top: 30%;
+border-radius: 100%;
+position: absolute;
+animation-name:swing;
+animation-duration: 1s;
+transform-origin:bottom ;
+    
+}
+
+
+.cen{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 20px;
+    left:47%;
+    top: 46%;
+    position: absolute;
+    box-shadow:0 0 10px white,
+    0 0 50px yellow,
+    0 0 90px yellow;
+}
+
+
+
+#clock{
+     background-image: url("c.png");
+    position: absolute; 
+    right:0px;
+    left: 0px;
+    top: 3%;
+    background-size: 494px 402px;
+    width: 494px;
+    height: 402px;
+    background-color:orange;
+    left:5%;
+    border-radius:50%;
+    box-shadow:0 0 80px inset ,
+    0 0 10px white ,
+    0 0 50px yellow;
+    border-width:10px;
+    border-style:solid ;
+    border-color:black ;
+
+   }
+
+@keyframes swing{
+from{
+transform: rotate(0deg);
+}
+to{
+transform: rotate(360deg);
+}
+}
+
+.design{
+    width: 581px;
+    height: 452px;
+    background:yellow;
+    border-radius:20%;
+    box-shadow:0px 0 30px inset ,
+    0 0px 80px inset,  
+    0 0 100px inset ; 
+    border-style:solid ;
+    border-color:yellow ;
+    border-width:5px;
+    left:7%;
+    top:30%;
+    position:absolute  ;
+}
+
+h1{
+    text-align:center ;
+    color:white;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    font-size:50px;
+    font-family: 'Fahkwang', sans-serif;
+
+}
+#btn{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 63%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+#btn1{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 63%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+
+#design1{
+    width: 27%;
+    height: 200px;
+    background:yellow;
+    border-radius:20%;
+    box-shadow:0px 0 30px inset ,
+    0 0px 80px inset,  
+    0 0 100px inset ; 
+    border-style:solid ;
+    border-color:yellow ;
+    border-width:5px;
+    left: 66%;
+    top: 48%;
+     position:absolute  ;
+} 
+
+#demo{
+    font-size: 60px;
+    text-align: center;
+    text-align:center ;
+    color:white;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    font-family: 'Fahkwang', sans-serif;
+}
+
+@media (min-width: 360px) and (max-width: 400px){
+    h1{
+        text-align:center ;
+        color:white;
+        text-shadow:0 0 10px #00ffff,
+                    0 0 30px #00ffff,
+                    0 0 50px #00ffff,
+                    0 0 100px #00ffff; 
+                    font-size: 17px;
+                            font-family: 'Fahkwang', sans-serif;
+    
+    }
+
+
+.design{
+    width: 250px;
+    height: 225px;
+    background: yellow;
+    border-radius: 20%;
+    box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    left: 12%;
+    top: 27%;
+    position: absolute;
+}
+#clock{
+    background-image: url("c.png");
+   position: absolute; 
+   right:0px;
+   left: 0px;
+   top: 3%;
+   background-size: 209px 191px;
+   width: 209px;
+   height: 191px;
+   background-color:orange;
+   left:5%;
+   border-radius:50%;
+   box-shadow:0 0 80px inset ,
+   0 0 10px white ,
+   0 0 50px yellow;
+   border-width:10px;
+   border-style:solid ;
+   border-color:black ;
+
+  }
+  #btn{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 23%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+#btn1{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 23%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+#sec{
+
+    width: 2px;
+    height: 83px;
+    background: red;
+    left: 51%;
+    top: 10%;
+    position: absolute;
+    border-radius: 100%;
+    animation-name:swing;
+    transform-origin:bottom ;
+    animation-duration: 1s;
+       }
+
+
+       #min{
+
+        width: 4px;
+        height: 70px;
+        background: red;
+        left: 50%;
+        top: 15%;
+        position: absolute;
+        border-radius: 100%;
+        animation-name:swing;
+        animation-duration: 1s;
+        transform-origin:bottom ;
+            
+        }
+        
+        
+        #hour{
+            width: 5px;
+            height: 41px;
+            background: red;
+            left: 50%;
+            top: 30%;
+        border-radius: 100%;
+        position: absolute;
+        animation-name:swing;
+        animation-duration: 1s;
+        transform-origin:bottom ;
+            
+        }
+        
+        
+        .cen{
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            border-style: solid;
+            border-color: yellow;
+            border-radius: 20px;
+            left:46%;
+            top: 46%;
+            position: absolute;
+            box-shadow:0 0 10px white,
+            0 0 50px yellow,
+            0 0 90px yellow;
+        }
+        
+        #design1{
+            width: 63%;
+            height: 97px;
+            background: yellow;
+            border-radius: 20%;
+            box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 5px;
+            left: 16%;
+            top: 66%;
+            position: absolute;
+        } 
+        
+        #demo{
+            font-size: 29px;
+            text-align: center;
+            text-align:center ;
+            color:white;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            font-family: 'Fahkwang', sans-serif;
+        }
+        
+}
+
+
+@media (min-width: 400px) and (max-width: 420px){
+    h1{
+        text-align:center ;
+        color:white;
+        text-shadow:0 0 10px #00ffff,
+                    0 0 30px #00ffff,
+                    0 0 50px #00ffff,
+                    0 0 100px #00ffff; 
+                    font-size: 17px;
+                            font-family: 'Fahkwang', sans-serif;
+    
+    }
+
+
+.design{
+    width: 250px;
+    height: 225px;
+    background: yellow;
+    border-radius: 20%;
+    box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    left: 16%;
+    top: 27%;
+    position: absolute;
+}
+#clock{
+    background-image: url("c.png");
+   position: absolute; 
+   right:0px;
+   left: 0px;
+   top: 3%;
+   background-size: 209px 191px;
+   width: 209px;
+   height: 191px;
+   background-color:orange;
+   left:5%;
+   border-radius:50%;
+   box-shadow:0 0 80px inset ,
+   0 0 10px white ,
+   0 0 50px yellow;
+   border-width:10px;
+   border-style:solid ;
+   border-color:black ;
+
+  }
+  #btn{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 23%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+#btn1{
+    color:white;
+    width: 200px;
+    height: 40px;
+    margin-left: 23%;
+    text-shadow:0 0 10px #00ffff,
+                0 0 30px #00ffff,
+                0 0 50px #00ffff,
+                0 0 100px #00ffff; 
+    background-color: black;
+    border-radius: 50px;
+}
+#sec{
+
+    width: 2px;
+    height: 83px;
+    background: red;
+    left: 51%;
+    top: 10%;
+    position: absolute;
+    border-radius: 100%;
+    animation-name:swing;
+    transform-origin:bottom ;
+    animation-duration: 1s;
+       }
+
+
+       #min{
+
+        width: 4px;
+        height: 70px;
+        background: red;
+        left: 50%;
+        top: 15%;
+        position: absolute;
+        border-radius: 100%;
+        animation-name:swing;
+        animation-duration: 1s;
+        transform-origin:bottom ;
+            
+        }
+        
+        
+        #hour{
+            width: 5px;
+            height: 41px;
+            background: red;
+            left: 50%;
+            top: 30%;
+        border-radius: 100%;
+        position: absolute;
+        animation-name:swing;
+        animation-duration: 1s;
+        transform-origin:bottom ;
+            
+        }
+        
+        
+        .cen{
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            border-style: solid;
+            border-color: yellow;
+            border-radius: 20px;
+            left:46%;
+            top: 46%;
+            position: absolute;
+            box-shadow:0 0 10px white,
+            0 0 50px yellow,
+            0 0 90px yellow;
+        }
+        
+        #design1{
+            width: 63%;
+            height: 97px;
+            background: yellow;
+            border-radius: 20%;
+            box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 5px;
+            left: 16%;
+            top: 66%;
+            position: absolute;
+        } 
+        
+        #demo{
+            font-size: 29px;
+            text-align: center;
+            text-align:center ;
+            color:white;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            font-family: 'Fahkwang', sans-serif;
+        }
+
+    }
+ @media (min-width: 280px) and (max-width: 340px){
+            h1{
+                text-align:center ;
+                color:white;
+                text-shadow:0 0 10px #00ffff,
+                            0 0 30px #00ffff,
+                            0 0 50px #00ffff,
+                            0 0 100px #00ffff; 
+                            font-size: 17px;
+                                    font-family: 'Fahkwang', sans-serif;
+            
+            }
+        
+        
+        .design{
+            width: 250px;
+            height: 225px;
+            background: yellow;
+            border-radius: 20%;
+            box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 5px;
+            left: 5%;
+            top: 28%;
+            position: absolute;
+        }
+        #clock{
+            background-image: url("c.png");
+           position: absolute; 
+           right:0px;
+           left: 0px;
+           top: 3%;
+           background-size: 209px 191px;
+           width: 209px;
+           height: 191px;
+           background-color:orange;
+           left:5%;
+           border-radius:50%;
+           box-shadow:0 0 80px inset ,
+           0 0 10px white ,
+           0 0 50px yellow;
+           border-width:10px;
+           border-style:solid ;
+           border-color:black ;
+        
+          }
+          #btn{
+            color:white;
+            width: 200px;
+            height: 40px;
+            margin-left: 23%;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            background-color: black;
+            border-radius: 50px;
+        }
+        #btn1{
+            color:white;
+            width: 200px;
+            height: 40px;
+            margin-left: 23%;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            background-color: black;
+            border-radius: 50px;
+        }
+        #sec{
+        
+            width: 2px;
+            height: 83px;
+            background: red;
+            left: 51%;
+            top: 10%;
+            position: absolute;
+            border-radius: 100%;
+            animation-name:swing;
+            transform-origin:bottom ;
+            animation-duration: 1s;
+               }
+        
+        
+               #min{
+        
+                width: 4px;
+                height: 70px;
+                background: red;
+                left: 50%;
+                top: 15%;
+                position: absolute;
+                border-radius: 100%;
+                animation-name:swing;
+                animation-duration: 1s;
+                transform-origin:bottom ;
+                    
+                }
+                
+                
+                #hour{
+                    width: 5px;
+                    height: 41px;
+                    background: red;
+                    left: 50%;
+                    top: 30%;
+                border-radius: 100%;
+                position: absolute;
+                animation-name:swing;
+                animation-duration: 1s;
+                transform-origin:bottom ;
+                    
+                }
+                
+                
+                .cen{
+                    width: 15px;
+                    height: 15px;
+                    background-color: black;
+                    border-style: solid;
+                    border-color: yellow;
+                    border-radius: 20px;
+                    left:46%;
+                    top: 46%;
+                    position: absolute;
+                    box-shadow:0 0 10px white,
+                    0 0 50px yellow,
+                    0 0 90px yellow;
+                }
+                
+                #design1{
+                    width: 63%;
+                    height: 97px;
+                    background: yellow;
+                    border-radius: 20%;
+                    box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+                    border-style: solid;
+                    border-color: yellow;
+                    border-width: 5px;
+                    left: 16%;
+                    top: 72%;
+                    position: absolute;
+                } 
+                
+                #demo{
+                    font-size: 29px;
+                    text-align: center;
+                    text-align:center ;
+                    color:white;
+                    text-shadow:0 0 10px #00ffff,
+                                0 0 30px #00ffff,
+                                0 0 50px #00ffff,
+                                0 0 100px #00ffff; 
+                    font-family: 'Fahkwang', sans-serif;
+                }
+                
+        }
+        @media (min-width: 600px) and (max-width: 800px){
+            h1{
+                text-align:center ;
+                color:white;
+                text-shadow:0 0 10px #00ffff,
+                            0 0 30px #00ffff,
+                            0 0 50px #00ffff,
+                            0 0 100px #00ffff; 
+                            font-size: 39px;
+                                    font-family: 'Fahkwang', sans-serif;
+            
+            }
+        
+        
+        .design{
+            width: 250px;
+            height: 225px;
+            background: yellow;
+            border-radius: 20%;
+            box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 5px;
+            left: 32%;
+            top: 18%;
+            position: absolute;
+        }
+        #clock{
+            background-image: url("c.png");
+           position: absolute; 
+           right:0px;
+           left: 0px;
+           top: 3%;
+           background-size: 209px 191px;
+           width: 209px;
+           height: 191px;
+           background-color:orange;
+           left:5%;
+           border-radius:50%;
+           box-shadow:0 0 80px inset ,
+           0 0 10px white ,
+           0 0 50px yellow;
+           border-width:10px;
+           border-style:solid ;
+           border-color:black ;
+        
+          }
+          #btn{
+            color:white;
+            width: 200px;
+            height: 40px;
+            margin-left: 12%;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            background-color: black;
+            border-radius: 50px;
+        }
+        #btn1{
+            color:white;
+            width: 200px;
+            height: 40px;
+            margin-left: 23%;
+            text-shadow:0 0 10px #00ffff,
+                        0 0 30px #00ffff,
+                        0 0 50px #00ffff,
+                        0 0 100px #00ffff; 
+            background-color: black;
+            border-radius: 50px;
+        }
+        #sec{
+        
+            width: 2px;
+            height: 83px;
+            background: red;
+            left: 51%;
+            top: 10%;
+            position: absolute;
+            border-radius: 100%;
+            animation-name:swing;
+            transform-origin:bottom ;
+            animation-duration: 1s;
+               }
+        
+        
+               #min{
+        
+                width: 4px;
+                height: 70px;
+                background: red;
+                left: 50%;
+                top: 15%;
+                position: absolute;
+                border-radius: 100%;
+                animation-name:swing;
+                animation-duration: 1s;
+                transform-origin:bottom ;
+                    
+                }
+                
+                
+                #hour{
+                    width: 5px;
+                    height: 41px;
+                    background: red;
+                    left: 50%;
+                    top: 30%;
+                border-radius: 100%;
+                position: absolute;
+                animation-name:swing;
+                animation-duration: 1s;
+                transform-origin:bottom ;
+                    
+                }
+                
+                
+                .cen{
+                    width: 15px;
+                    height: 15px;
+                    background-color: black;
+                    border-style: solid;
+                    border-color: yellow;
+                    border-radius: 20px;
+                    left:46%;
+                    top: 46%;
+                    position: absolute;
+                    box-shadow:0 0 10px white,
+                    0 0 50px yellow,
+                    0 0 90px yellow;
+                }
+                
+                #design1{
+                    width: 63%;
+                    height: 97px;
+                    background: yellow;
+                    border-radius: 20%;
+                    box-shadow: 0px 0 30px inset, 0 0px 80px inset, 0 0 100px inset;
+                    border-style: solid;
+                    border-color: yellow;
+                    border-width: 5px;
+                    left: 16%;
+                    top: 46%;
+                    position: absolute;
+                } 
+                
+                #demo{
+                    font-size: 29px;
+                    text-align: center;
+                    text-align:center ;
+                    color:white;
+                    text-shadow:0 0 10px #00ffff,
+                                0 0 30px #00ffff,
+                                0 0 50px #00ffff,
+                                0 0 100px #00ffff; 
+                    font-family: 'Fahkwang', sans-serif;
+                }
+                
+        }
+         
+        
+
+
