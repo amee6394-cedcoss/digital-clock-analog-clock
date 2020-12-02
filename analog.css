@@ -101,7 +101,7 @@ transform: rotate(360deg);
 }
 }
 
-.design{
+#design{
     width: 581px;
     height: 452px;
     background:yellow;
@@ -129,7 +129,7 @@ h1{
 
 }
 #btn{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 63%;
@@ -141,7 +141,7 @@ h1{
     border-radius: 50px;
 }
 #btn1{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 63%;
@@ -195,7 +195,7 @@ h1{
     }
 
 
-.design{
+#design{
     width: 250px;
     height: 225px;
     background: yellow;
@@ -229,7 +229,7 @@ h1{
 
   }
   #btn{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 23%;
@@ -241,7 +241,7 @@ h1{
     border-radius: 50px;
 }
 #btn1{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 23%;
@@ -356,7 +356,7 @@ h1{
     }
 
 
-.design{
+#design{
     width: 250px;
     height: 225px;
     background: yellow;
@@ -390,7 +390,7 @@ h1{
 
   }
   #btn{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 23%;
@@ -402,7 +402,7 @@ h1{
     border-radius: 50px;
 }
 #btn1{
-    color:white;
+    color:red;
     width: 200px;
     height: 40px;
     margin-left: 23%;
@@ -515,7 +515,7 @@ h1{
             }
         
         
-        .design{
+        #design{
             width: 250px;
             height: 225px;
             background: yellow;
@@ -549,7 +549,7 @@ h1{
         
           }
           #btn{
-            color:white;
+            color:red;
             width: 200px;
             height: 40px;
             margin-left: 23%;
@@ -561,7 +561,7 @@ h1{
             border-radius: 50px;
         }
         #btn1{
-            color:white;
+            color:red;
             width: 200px;
             height: 40px;
             margin-left: 23%;
@@ -674,7 +674,7 @@ h1{
             }
         
         
-        .design{
+        #design{
             width: 250px;
             height: 225px;
             background: yellow;
@@ -708,7 +708,7 @@ h1{
         
           }
           #btn{
-            color:white;
+            color:red;
             width: 200px;
             height: 40px;
             margin-left: 12%;
@@ -720,7 +720,7 @@ h1{
             border-radius: 50px;
         }
         #btn1{
-            color:white;
+            color:red;
             width: 200px;
             height: 40px;
             margin-left: 23%;
