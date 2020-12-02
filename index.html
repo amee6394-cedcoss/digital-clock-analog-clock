@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analog Clock</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="analog.css">
+</head>
+
+<body>
+
+    <h1>Analog Clock & Digital Clock</h1>
+    <button id="btn" onclick="btn()">OFF</button>
+    <button id="btn1" onclick="btn1()">NO</button>
+ 
+        <div class="design">
+            <div id="clock">
+                <div onload="clock()" id="sec">
+                </div>
+                <div onload="clock()" id="min">
+                </div>
+                <div onload="clock()" id="hour">
+                </div>
+                <div class="cen">
+                </div>
+            </div>
+        </div>
+        <div id="design1">
+            <p id="demo"></p>
+        </div>
+  
+    <script src="analog.js"></script>
+</body>
+
+</html>
